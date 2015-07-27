@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import smtplib
  
 def sendemail(from_addr, to_addr_list, cc_addr_list,
@@ -23,4 +25,3 @@ sendemail(from_addr    = 'trilaciousexps@gmail.com',
           message      = 'Hello, this is Raspberry Pi sending you this email....', 
           login        = 'trilaciousexps@gmail.com', 
           password     = 'experiments@tlabs')    
-    
