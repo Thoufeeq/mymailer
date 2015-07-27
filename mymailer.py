@@ -2,7 +2,7 @@
 
 import smtplib
  
-def sendemail(from_addr, to_addr_list, cc_addr_list,
+def sendemail(from_addr, to_addr_list,
               subject, message,
               login, password,
               smtpserver='smtp.gmail.com:587'):
