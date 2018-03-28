@@ -5,3 +5,4 @@ This is a mailer script
 Send Mails using smtplib 
 Testing README
 
+This is the last and final edit...
